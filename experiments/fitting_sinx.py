@@ -1,7 +1,8 @@
 import torch
 import torch.nn as nn
 import math
-from module.mlp import MLP
+
+from dl.modules.mlp import MLP
 
 # prepare data
 x = torch.linspace(-math.pi, math.pi, 1000).unsqueeze(1)
